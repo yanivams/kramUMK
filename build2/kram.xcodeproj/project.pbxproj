@@ -337,6 +337,172 @@
 		70CDB65127A1382700A546C1 /* KramDDSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CDB64E27A1382600A546C1 /* KramDDSHelper.h */; };
 		70CDB65227A1382700A546C1 /* KramDDSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70CDB64F27A1382600A546C1 /* KramDDSHelper.cpp */; };
 		70CDB65327A1382700A546C1 /* KramDDSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70CDB64F27A1382600A546C1 /* KramDDSHelper.cpp */; };
+		79D9FB0827D51593001667FD /* kram_framwork.docc in Sources */ = {isa = PBXBuildFile; fileRef = 79D9FB0727D51593001667FD /* kram_framwork.docc */; };
+		79D9FB0927D51593001667FD /* kram_framwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D9FB0627D51593001667FD /* kram_framwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D9FC8B27D51B38001667FD /* libate.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 706EF12A26D159F9001C950E /* libate.tbd */; };
+		79D9FC8C27D51B64001667FD /* ateencoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDF926D1583E001C950E /* ateencoder.mm */; };
+		79D9FC8D27D51BAF001667FD /* hdr_encode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70A7BD2E27092A1200DBCCF7 /* hdr_encode.cpp */; };
+		79D9FC8E27D51BAF001667FD /* bc6h_decode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 708A6A8B2708CE4700BA5410 /* bc6h_decode.cpp */; };
+		79D9FC8F27D51BAF001667FD /* bc6h_encode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 708A6A8D2708CE4700BA5410 /* bc6h_encode.cpp */; };
+		79D9FC9027D51BD1001667FD /* thread_support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5726D3473F001C950E /* thread_support.cpp */; };
+		79D9FC9127D51BD1001667FD /* assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5826D3473F001C950E /* assert.cpp */; };
+		79D9FC9227D51BD1001667FD /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5926D3473F001C950E /* string.cpp */; };
+		79D9FC9327D51BD1001667FD /* allocator_eastl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5A26D3473F001C950E /* allocator_eastl.cpp */; };
+		79D9FC9427D51BD1001667FD /* numeric_limits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5B26D3473F001C950E /* numeric_limits.cpp */; };
+		79D9FC9527D51BD1001667FD /* atomic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5C26D3473F001C950E /* atomic.cpp */; };
+		79D9FC9627D51BD1001667FD /* intrusive_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5D26D3473F001C950E /* intrusive_list.cpp */; };
+		79D9FC9727D51BD2001667FD /* hashtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5E26D3473F001C950E /* hashtable.cpp */; };
+		79D9FC9827D51BD2001667FD /* red_black_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD5F26D3473F001C950E /* red_black_tree.cpp */; };
+		79D9FC9927D51BD2001667FD /* fixed_pool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EFD6026D3473F001C950E /* fixed_pool.cpp */; };
+		79D9FC9A27D51BD2001667FD /* EtcBlock4x4Encoding_RGB8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDAA26D1583E001C950E /* EtcBlock4x4Encoding_RGB8.cpp */; };
+		79D9FC9B27D51BD2001667FD /* EtcImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDAC26D1583E001C950E /* EtcImage.cpp */; };
+		79D9FC9C27D51BD2001667FD /* EtcDifferentialTrys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDAF26D1583E001C950E /* EtcDifferentialTrys.cpp */; };
+		79D9FC9D27D51BD2001667FD /* EtcMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDB126D1583E001C950E /* EtcMath.cpp */; };
+		79D9FC9E27D51BD2001667FD /* EtcBlock4x4Encoding_RGBA8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDB226D1583E001C950E /* EtcBlock4x4Encoding_RGBA8.cpp */; };
+		79D9FC9F27D51BD2001667FD /* EtcBlock4x4Encoding_RG11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDB326D1583E001C950E /* EtcBlock4x4Encoding_RG11.cpp */; };
+		79D9FCA027D51BD2001667FD /* EtcBlock4x4Encoding_RGB8A1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDB626D1583E001C950E /* EtcBlock4x4Encoding_RGB8A1.cpp */; };
+		79D9FCA127D51BD2001667FD /* EtcIndividualTrys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDBB26D1583E001C950E /* EtcIndividualTrys.cpp */; };
+		79D9FCA227D51BD2001667FD /* EtcBlock4x4Encoding_R11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDBC26D1583E001C950E /* EtcBlock4x4Encoding_R11.cpp */; };
+		79D9FCA327D51BD2001667FD /* EtcBlock4x4Encoding_ETC1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDBF26D1583E001C950E /* EtcBlock4x4Encoding_ETC1.cpp */; };
+		79D9FCA427D51BD2001667FD /* EtcBlock4x4Encoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDC526D1583E001C950E /* EtcBlock4x4Encoding.cpp */; };
+		79D9FCA527D51BD2001667FD /* EtcBlock4x4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDC626D1583E001C950E /* EtcBlock4x4.cpp */; };
+		79D9FCA627D51C4E001667FD /* bc7enc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDD026D1583E001C950E /* bc7enc.cpp */; };
+		79D9FCA727D51C4E001667FD /* astcenc_pick_best_endpoint_format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDD326D1583E001C950E /* astcenc_pick_best_endpoint_format.cpp */; };
+		79D9FCA827D51C4E001667FD /* astcenc_integer_sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDD526D1583E001C950E /* astcenc_integer_sequence.cpp */; };
+		79D9FCA927D51C4E001667FD /* astcenc_quantization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDD826D1583E001C950E /* astcenc_quantization.cpp */; };
+		79D9FCAA27D51C4E001667FD /* astcenc_color_unquantize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDD926D1583E001C950E /* astcenc_color_unquantize.cpp */; };
+		79D9FCAB27D51C4E001667FD /* astcenc_mathlib_softfloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDDA26D1583E001C950E /* astcenc_mathlib_softfloat.cpp */; };
+		79D9FCAC27D51C4F001667FD /* astcenc_weight_quant_xfer_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDDB26D1583E001C950E /* astcenc_weight_quant_xfer_tables.cpp */; };
+		79D9FCAD27D51C4F001667FD /* astcenc_encoding_choice_error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDDD26D1583E001C950E /* astcenc_encoding_choice_error.cpp */; };
+		79D9FCAE27D51C4F001667FD /* astcenc_percentile_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDDE26D1583E001C950E /* astcenc_percentile_tables.cpp */; };
+		79D9FCAF27D51C4F001667FD /* astcenc_partition_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDDF26D1583E001C950E /* astcenc_partition_tables.cpp */; };
+		79D9FCB027D51C4F001667FD /* astcenc_decompress_symbolic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDE026D1583E001C950E /* astcenc_decompress_symbolic.cpp */; };
+		79D9FCB127D51C4F001667FD /* astcenc_color_quantize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDE126D1583E001C950E /* astcenc_color_quantize.cpp */; };
+		79D9FCB227D51C4F001667FD /* astcenc_platform_isa_detection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDE326D1583E001C950E /* astcenc_platform_isa_detection.cpp */; };
+		79D9FCB327D51C4F001667FD /* astcenc_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDE426D1583E001C950E /* astcenc_image.cpp */; };
+		79D9FCB427D51C4F001667FD /* astcenc_kmeans_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDE626D1583E001C950E /* astcenc_kmeans_partitioning.cpp */; };
+		79D9FCB527D51C4F001667FD /* astcenc_compress_symbolic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDE826D1583E001C950E /* astcenc_compress_symbolic.cpp */; };
+		79D9FCB627D51C4F001667FD /* astcenc_ideal_endpoints_and_weights.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDE926D1583E001C950E /* astcenc_ideal_endpoints_and_weights.cpp */; };
+		79D9FCB727D51C4F001667FD /* astcenc_mathlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDEB26D1583E001C950E /* astcenc_mathlib.cpp */; };
+		79D9FCB827D51C4F001667FD /* astcenc_find_best_partitioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDEC26D1583E001C950E /* astcenc_find_best_partitioning.cpp */; };
+		79D9FCB927D51C4F001667FD /* astcenc_diagnostic_trace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDEE26D1583E001C950E /* astcenc_diagnostic_trace.cpp */; };
+		79D9FCBA27D51C4F001667FD /* astcenc_symbolic_physical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDEF26D1583E001C950E /* astcenc_symbolic_physical.cpp */; };
+		79D9FCBB27D51C4F001667FD /* astcenc_weight_align.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDF026D1583E001C950E /* astcenc_weight_align.cpp */; };
+		79D9FCBC27D51C4F001667FD /* astcenc_block_sizes2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDF226D1583E001C950E /* astcenc_block_sizes2.cpp */; };
+		79D9FCBD27D51C4F001667FD /* astcenc_entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDF326D1583E001C950E /* astcenc_entry.cpp */; };
+		79D9FCBE27D51C4F001667FD /* astcenc_averages_and_directions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDF526D1583E001C950E /* astcenc_averages_and_directions.cpp */; };
+		79D9FCBF27D51C4F001667FD /* basisu_transcoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE0426D1583F001C950E /* basisu_transcoder.cpp */; };
+		79D9FCC027D51C4F001667FD /* miniz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE1126D1583F001C950E /* miniz.cpp */; };
+		79D9FCC127D51C4F001667FD /* hedistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE1426D1583F001C950E /* hedistance.cpp */; };
+		79D9FCC227D51C4F001667FD /* KramDDSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70CDB64F27A1382600A546C1 /* KramDDSHelper.cpp */; };
+		79D9FCC327D51C4F001667FD /* KramZipHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE1E26D1583F001C950E /* KramZipHelper.cpp */; };
+		79D9FCC427D51C4F001667FD /* KramImageInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE2526D1583F001C950E /* KramImageInfo.cpp */; };
+		79D9FCC527D51C4F001667FD /* KramImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE2626D1583F001C950E /* KramImage.cpp */; };
+		79D9FCC627D51C4F001667FD /* KramLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE2826D1583F001C950E /* KramLog.cpp */; };
+		79D9FCC727D51C4F001667FD /* KramSDFMipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE2B26D1583F001C950E /* KramSDFMipper.cpp */; };
+		79D9FCC827D51C4F001667FD /* KTXImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE1B26D1583F001C950E /* KTXImage.cpp */; };
+		79D9FCC927D51C4F001667FD /* KramTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE1A26D1583F001C950E /* KramTimer.cpp */; };
+		79D9FCCA27D51C4F001667FD /* KramMmapHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE2C26D1583F001C950E /* KramMmapHelper.cpp */; };
+		79D9FCCB27D51C4F001667FD /* Kram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE3526D1583F001C950E /* Kram.cpp */; };
+		79D9FCCC27D51C4F001667FD /* KramFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE2126D1583F001C950E /* KramFileHelper.cpp */; };
+		79D9FCCD27D51C4F001667FD /* KramMipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE1C26D1583F001C950E /* KramMipper.cpp */; };
+		79D9FCCE27D51C4F001667FD /* float4a.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE2F26D1583F001C950E /* float4a.cpp */; };
+		79D9FCCF27D51C4F001667FD /* TaskSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE1F26D1583F001C950E /* TaskSystem.cpp */; };
+		79D9FCD027D51C4F001667FD /* squish.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE3D26D1583F001C950E /* squish.cpp */; };
+		79D9FCD127D51C4F001667FD /* colourset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE3E26D1583F001C950E /* colourset.cpp */; };
+		79D9FCD227D51C4F001667FD /* clusterfit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE4226D1583F001C950E /* clusterfit.cpp */; };
+		79D9FCD327D51C4F001667FD /* rangefit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE4426D1583F001C950E /* rangefit.cpp */; };
+		79D9FCD427D51C50001667FD /* alpha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE4626D1583F001C950E /* alpha.cpp */; };
+		79D9FCD527D51C50001667FD /* colourblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE4726D1583F001C950E /* colourblock.cpp */; };
+		79D9FCD627D51C50001667FD /* colourfit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE4926D1583F001C950E /* colourfit.cpp */; };
+		79D9FCD727D51C50001667FD /* maths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE4D26D1583F001C950E /* maths.cpp */; };
+		79D9FCD827D51C50001667FD /* singlecolourfit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE4E26D1583F001C950E /* singlecolourfit.cpp */; };
+		79D9FCDB27D51C50001667FD /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE5626D1583F001C950E /* lodepng.cpp */; };
+		79D9FCDC27D51C50001667FD /* tmpfileplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE5826D1583F001C950E /* tmpfileplus.cpp */; };
+		79D9FCDD27D51DD6001667FD /* EtcErrorMetric.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDAB26D1583E001C950E /* EtcErrorMetric.h */; };
+		79D9FCDE27D51DD6001667FD /* EtcColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDAD26D1583E001C950E /* EtcColor.h */; };
+		79D9FCDF27D51DD6001667FD /* EtcDifferentialTrys.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDAE26D1583E001C950E /* EtcDifferentialTrys.h */; };
+		79D9FCE027D51DD6001667FD /* EtcBlock4x4Encoding_RGB8.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDB026D1583E001C950E /* EtcBlock4x4Encoding_RGB8.h */; };
+		79D9FCE127D51DD6001667FD /* EtcConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDB426D1583E001C950E /* EtcConfig.h */; };
+		79D9FCE227D51DD6001667FD /* EtcBlock4x4Encoding_R11.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDB526D1583E001C950E /* EtcBlock4x4Encoding_R11.h */; };
+		79D9FCE327D51DD6001667FD /* EtcBlock4x4Encoding_RG11.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDB726D1583E001C950E /* EtcBlock4x4Encoding_RG11.h */; };
+		79D9FCE427D51DD7001667FD /* EtcMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDB926D1583E001C950E /* EtcMath.h */; };
+		79D9FCE527D51DD7001667FD /* EtcIndividualTrys.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDBA26D1583E001C950E /* EtcIndividualTrys.h */; };
+		79D9FCE627D51DD7001667FD /* EtcBlock4x4EncodingBits.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDBD26D1583E001C950E /* EtcBlock4x4EncodingBits.h */; };
+		79D9FCE727D51DD7001667FD /* EtcBlock4x4Encoding_RGB8A1.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDBE26D1583E001C950E /* EtcBlock4x4Encoding_RGB8A1.h */; };
+		79D9FCE827D51DD7001667FD /* EtcBlock4x4.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDC026D1583E001C950E /* EtcBlock4x4.h */; };
+		79D9FCE927D51DD7001667FD /* Etc.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDC126D1583E001C950E /* Etc.h */; };
+		79D9FCEA27D51DD7001667FD /* EtcImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDC226D1583E001C950E /* EtcImage.h */; };
+		79D9FCEB27D51DD7001667FD /* EtcBlock4x4Encoding_ETC1.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDC326D1583E001C950E /* EtcBlock4x4Encoding_ETC1.h */; };
+		79D9FCEC27D51DD7001667FD /* EtcBlock4x4Encoding_RGBA8.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDC426D1583E001C950E /* EtcBlock4x4Encoding_RGBA8.h */; };
+		79D9FCED27D51DD7001667FD /* EtcColorFloatRGBA.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDC726D1583E001C950E /* EtcColorFloatRGBA.h */; };
+		79D9FCEE27D51DD7001667FD /* EtcBlock4x4Encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDC826D1583E001C950E /* EtcBlock4x4Encoding.h */; };
+		79D9FCEF27D51DEF001667FD /* KramDDSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CDB64E27A1382600A546C1 /* KramDDSHelper.h */; };
+		79D9FCF027D51E0B001667FD /* bc6h_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 708A6A8C2708CE4700BA5410 /* bc6h_decode.h */; };
+		79D9FCF127D51E0C001667FD /* bc6h_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 708A6A8E2708CE4700BA5410 /* bc6h_encode.h */; };
+		79D9FCF227D51E0C001667FD /* bc6h_definitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 708A6A902708CE4700BA5410 /* bc6h_definitions.h */; };
+		79D9FCF327D51E0C001667FD /* bc6h_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 708A6A922708CE4700BA5410 /* bc6h_utils.h */; };
+		79D9FCF427D51E24001667FD /* rgbcx.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDCB26D1583E001C950E /* rgbcx.h */; };
+		79D9FCF527D51E24001667FD /* rgbcx_table4.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDD126D1583E001C950E /* rgbcx_table4.h */; };
+		79D9FCF627D51E41001667FD /* bc7enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDCC26D1583E001C950E /* bc7enc.h */; };
+		79D9FCF727D51E41001667FD /* bc7decomp.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDCD26D1583E001C950E /* bc7decomp.h */; };
+		79D9FCF827D51E5F001667FD /* astcenc_diagnostic_trace.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDD426D1583E001C950E /* astcenc_diagnostic_trace.h */; };
+		79D9FCF927D51E5F001667FD /* astcenc_vecmathlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDD626D1583E001C950E /* astcenc_vecmathlib.h */; };
+		79D9FCFA27D51E60001667FD /* astcenc_vecmathlib_avx2_8.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDDC26D1583E001C950E /* astcenc_vecmathlib_avx2_8.h */; };
+		79D9FCFB27D51E60001667FD /* astcenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDE226D1583E001C950E /* astcenc.h */; };
+		79D9FCFC27D51E60001667FD /* astcenc_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDE526D1583E001C950E /* astcenc_internal.h */; };
+		79D9FCFD27D51E60001667FD /* astcenc_vecmathlib_neon_armv7_4.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDE726D1583E001C950E /* astcenc_vecmathlib_neon_armv7_4.h */; };
+		79D9FCFE27D51E60001667FD /* astcenc_vecmathlib_sse_4.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDEA26D1583E001C950E /* astcenc_vecmathlib_sse_4.h */; };
+		79D9FCFF27D51E60001667FD /* astcenc_vecmathlib_neon_4.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDED26D1583E001C950E /* astcenc_vecmathlib_neon_4.h */; };
+		79D9FD0027D51E60001667FD /* astcenc_vecmathlib_none_4.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDF126D1583E001C950E /* astcenc_vecmathlib_none_4.h */; };
+		79D9FD0127D51E61001667FD /* astcenc_vecmathlib_common_4.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDF426D1583E001C950E /* astcenc_vecmathlib_common_4.h */; };
+		79D9FD0227D51E61001667FD /* astcenc_mathlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDF626D1583E001C950E /* astcenc_mathlib.h */; };
+		79D9FD0327D51E8C001667FD /* basisu_transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDFC26D1583E001C950E /* basisu_transcoder.h */; };
+		79D9FD0427D51E8C001667FD /* basisu_transcoder_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE0226D1583F001C950E /* basisu_transcoder_internal.h */; };
+		79D9FD0527D51E8D001667FD /* basisu_transcoder_uastc.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE0526D1583F001C950E /* basisu_transcoder_uastc.h */; };
+		79D9FD0627D51EC5001667FD /* basisu_containers.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDFD26D1583E001C950E /* basisu_containers.h */; };
+		79D9FD0727D51EC5001667FD /* basisu_containers_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEDFF26D1583E001C950E /* basisu_containers_impl.h */; };
+		79D9FD0827D51F76001667FD /* basisu_global_selector_cb.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE0326D1583F001C950E /* basisu_global_selector_cb.h */; };
+		79D9FD0927D51F76001667FD /* basisu_global_selector_palette.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE0626D1583F001C950E /* basisu_global_selector_palette.h */; };
+		79D9FD0A27D51F76001667FD /* basisu.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE0C26D1583F001C950E /* basisu.h */; };
+		79D9FD0B27D51F76001667FD /* basisu_file_headers.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE0E26D1583F001C950E /* basisu_file_headers.h */; };
+		79D9FD0C27D51FA2001667FD /* miniz.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE1226D1583F001C950E /* miniz.h */; };
+		79D9FD0D27D51FBA001667FD /* hedistance.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE1526D1583F001C950E /* hedistance.h */; };
+		79D9FD0E27D51FCC001667FD /* stb_rect_pack.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE1726D1583F001C950E /* stb_rect_pack.h */; };
+		79D9FD0F27D51FF2001667FD /* KramZipHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE1926D1583F001C950E /* KramZipHelper.h */; };
+		79D9FD1027D51FF2001667FD /* KramConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2326D1583F001C950E /* KramConfig.h */; };
+		79D9FD1127D51FF2001667FD /* KramLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2726D1583F001C950E /* KramLib.h */; };
+		79D9FD1227D51FF3001667FD /* KramLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2426D1583F001C950E /* KramLog.h */; };
+		79D9FD1327D51FF3001667FD /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2926D1583F001C950E /* KramVersion.h */; };
+		79D9FD1427D51FF3001667FD /* KramImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2A26D1583F001C950E /* KramImage.h */; };
+		79D9FD1527D51FF4001667FD /* KramSDFMipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2026D1583F001C950E /* KramSDFMipper.h */; };
+		79D9FD1627D51FF4001667FD /* KramImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3126D1583F001C950E /* KramImageInfo.h */; };
+		79D9FD1727D51FF4001667FD /* KramTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3226D1583F001C950E /* KramTimer.h */; };
+		79D9FD1827D51FF4001667FD /* KramMmapHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3326D1583F001C950E /* KramMmapHelper.h */; };
+		79D9FD1927D51FF5001667FD /* Kram.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2E26D1583F001C950E /* Kram.h */; };
+		79D9FD1A27D51FF5001667FD /* KramFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3626D1583F001C950E /* KramFileHelper.h */; };
+		79D9FD1B27D51FF5001667FD /* KramMipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3726D1583F001C950E /* KramMipper.h */; };
+		79D9FD1C27D52006001667FD /* sse2neon.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2226D1583F001C950E /* sse2neon.h */; };
+		79D9FD1D27D5201F001667FD /* win_mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2D26D1583F001C950E /* win_mmap.h */; };
+		79D9FD1E27D52036001667FD /* KTXImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3026D1583F001C950E /* KTXImage.h */; };
+		79D9FD1F27D5204F001667FD /* float4a.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3426D1583F001C950E /* float4a.h */; };
+		79D9FD2027D52066001667FD /* squish.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3A26D1583F001C950E /* squish.h */; };
+		79D9FD2127D5206F001667FD /* clusterfit.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3B26D1583F001C950E /* clusterfit.h */; };
+		79D9FD2227D5207F001667FD /* colourfit.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3C26D1583F001C950E /* colourfit.h */; };
+		79D9FD2327D52086001667FD /* alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3F26D1583F001C950E /* alpha.h */; };
+		79D9FD2427D520A8001667FD /* singlecolourfit.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE4126D1583F001C950E /* singlecolourfit.h */; };
+		79D9FD2527D520B7001667FD /* maths.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE4526D1583F001C950E /* maths.h */; };
+		79D9FD2627D520C1001667FD /* colourset.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE4826D1583F001C950E /* colourset.h */; };
+		79D9FD2727D520D5001667FD /* colourblock.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE4A26D1583F001C950E /* colourblock.h */; };
+		79D9FD2827D520DD001667FD /* rangefit.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE4B26D1583F001C950E /* rangefit.h */; };
+		79D9FD2927D520E5001667FD /* zstd.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE5226D1583F001C950E /* zstd.h */; };
+		79D9FD2A27D520F4001667FD /* lodepng.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE5426D1583F001C950E /* lodepng.h */; };
+		79D9FD2B27D520FE001667FD /* tmpfileplus.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE5926D1583F001C950E /* tmpfileplus.h */; };
+		79D9FD2C27D52214001667FD /* TaskSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3826D1583F001C950E /* TaskSystem.h */; };
+		79D9FD2D27D522F7001667FD /* hdr_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A7BD2F27092A1200DBCCF7 /* hdr_encode.h */; };
+		79D9FD2E27D54179001667FD /* astcenc_compute_variance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDD726D1583E001C950E /* astcenc_compute_variance.cpp */; };
+		79D9FD2F27D541BC001667FD /* bc7decomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEDCE26D1583E001C950E /* bc7decomp.cpp */; };
+		79D9FD3027D55285001667FD /* zstd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE5026D1583F001C950E /* zstd.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -650,6 +816,9 @@
 		70A7BD2F27092A1200DBCCF7 /* hdr_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdr_encode.h; sourceTree = "<group>"; };
 		70CDB64E27A1382600A546C1 /* KramDDSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KramDDSHelper.h; sourceTree = "<group>"; };
 		70CDB64F27A1382600A546C1 /* KramDDSHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KramDDSHelper.cpp; sourceTree = "<group>"; };
+		79D9FB0427D51593001667FD /* kram_framwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kram_framwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D9FB0627D51593001667FD /* kram_framwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kram_framwork.h; sourceTree = "<group>"; };
+		79D9FB0727D51593001667FD /* kram_framwork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = kram_framwork.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -669,6 +838,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79D9FB0127D51593001667FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D9FC8B27D51B38001667FD /* libate.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -676,6 +853,7 @@
 			isa = PBXGroup;
 			children = (
 				706EEDA826D1583E001C950E /* libkram */,
+				79D9FB0527D51593001667FD /* kram-framwork */,
 				706ECDDF26D1577A001C950E /* Products */,
 				706EF12926D159F9001C950E /* Frameworks */,
 			);
@@ -686,6 +864,7 @@
 			children = (
 				706ECDDE26D1577A001C950E /* libkram.a */,
 				706EF1E126D166C5001C950E /* libkram-ios.a */,
+				79D9FB0427D51593001667FD /* kram_framwork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1197,6 +1376,15 @@
 			path = bc6h;
 			sourceTree = "<group>";
 		};
+		79D9FB0527D51593001667FD /* kram-framwork */ = {
+			isa = PBXGroup;
+			children = (
+				79D9FB0627D51593001667FD /* kram_framwork.h */,
+				79D9FB0727D51593001667FD /* kram_framwork.docc */,
+			);
+			path = "kram-framwork";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1378,6 +1566,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		79D9FAFF27D51593001667FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D9FB0927D51593001667FD /* kram_framwork.h in Headers */,
+				79D9FD2D27D522F7001667FD /* hdr_encode.h in Headers */,
+				79D9FD2C27D52214001667FD /* TaskSystem.h in Headers */,
+				79D9FD2B27D520FE001667FD /* tmpfileplus.h in Headers */,
+				79D9FD2A27D520F4001667FD /* lodepng.h in Headers */,
+				79D9FD2927D520E5001667FD /* zstd.h in Headers */,
+				79D9FD2827D520DD001667FD /* rangefit.h in Headers */,
+				79D9FD2727D520D5001667FD /* colourblock.h in Headers */,
+				79D9FD2627D520C1001667FD /* colourset.h in Headers */,
+				79D9FD2527D520B7001667FD /* maths.h in Headers */,
+				79D9FD2427D520A8001667FD /* singlecolourfit.h in Headers */,
+				79D9FD2327D52086001667FD /* alpha.h in Headers */,
+				79D9FD2227D5207F001667FD /* colourfit.h in Headers */,
+				79D9FD2127D5206F001667FD /* clusterfit.h in Headers */,
+				79D9FD2027D52066001667FD /* squish.h in Headers */,
+				79D9FD1F27D5204F001667FD /* float4a.h in Headers */,
+				79D9FD1E27D52036001667FD /* KTXImage.h in Headers */,
+				79D9FD1D27D5201F001667FD /* win_mmap.h in Headers */,
+				79D9FD1C27D52006001667FD /* sse2neon.h in Headers */,
+				79D9FD0F27D51FF2001667FD /* KramZipHelper.h in Headers */,
+				79D9FD1027D51FF2001667FD /* KramConfig.h in Headers */,
+				79D9FD1127D51FF2001667FD /* KramLib.h in Headers */,
+				79D9FD1227D51FF3001667FD /* KramLog.h in Headers */,
+				79D9FD1327D51FF3001667FD /* KramVersion.h in Headers */,
+				79D9FD1427D51FF3001667FD /* KramImage.h in Headers */,
+				79D9FD1527D51FF4001667FD /* KramSDFMipper.h in Headers */,
+				79D9FD1627D51FF4001667FD /* KramImageInfo.h in Headers */,
+				79D9FD1727D51FF4001667FD /* KramTimer.h in Headers */,
+				79D9FD1827D51FF4001667FD /* KramMmapHelper.h in Headers */,
+				79D9FD1927D51FF5001667FD /* Kram.h in Headers */,
+				79D9FD1A27D51FF5001667FD /* KramFileHelper.h in Headers */,
+				79D9FD1B27D51FF5001667FD /* KramMipper.h in Headers */,
+				79D9FD0E27D51FCC001667FD /* stb_rect_pack.h in Headers */,
+				79D9FD0D27D51FBA001667FD /* hedistance.h in Headers */,
+				79D9FD0C27D51FA2001667FD /* miniz.h in Headers */,
+				79D9FD0827D51F76001667FD /* basisu_global_selector_cb.h in Headers */,
+				79D9FD0927D51F76001667FD /* basisu_global_selector_palette.h in Headers */,
+				79D9FD0A27D51F76001667FD /* basisu.h in Headers */,
+				79D9FD0B27D51F76001667FD /* basisu_file_headers.h in Headers */,
+				79D9FD0627D51EC5001667FD /* basisu_containers.h in Headers */,
+				79D9FD0727D51EC5001667FD /* basisu_containers_impl.h in Headers */,
+				79D9FD0327D51E8C001667FD /* basisu_transcoder.h in Headers */,
+				79D9FD0427D51E8C001667FD /* basisu_transcoder_internal.h in Headers */,
+				79D9FD0527D51E8D001667FD /* basisu_transcoder_uastc.h in Headers */,
+				79D9FCF827D51E5F001667FD /* astcenc_diagnostic_trace.h in Headers */,
+				79D9FCF927D51E5F001667FD /* astcenc_vecmathlib.h in Headers */,
+				79D9FCFA27D51E60001667FD /* astcenc_vecmathlib_avx2_8.h in Headers */,
+				79D9FCFB27D51E60001667FD /* astcenc.h in Headers */,
+				79D9FCFC27D51E60001667FD /* astcenc_internal.h in Headers */,
+				79D9FCFD27D51E60001667FD /* astcenc_vecmathlib_neon_armv7_4.h in Headers */,
+				79D9FCFE27D51E60001667FD /* astcenc_vecmathlib_sse_4.h in Headers */,
+				79D9FCFF27D51E60001667FD /* astcenc_vecmathlib_neon_4.h in Headers */,
+				79D9FD0027D51E60001667FD /* astcenc_vecmathlib_none_4.h in Headers */,
+				79D9FD0127D51E61001667FD /* astcenc_vecmathlib_common_4.h in Headers */,
+				79D9FD0227D51E61001667FD /* astcenc_mathlib.h in Headers */,
+				79D9FCF627D51E41001667FD /* bc7enc.h in Headers */,
+				79D9FCF727D51E41001667FD /* bc7decomp.h in Headers */,
+				79D9FCF427D51E24001667FD /* rgbcx.h in Headers */,
+				79D9FCF527D51E24001667FD /* rgbcx_table4.h in Headers */,
+				79D9FCF027D51E0B001667FD /* bc6h_decode.h in Headers */,
+				79D9FCF127D51E0C001667FD /* bc6h_encode.h in Headers */,
+				79D9FCF227D51E0C001667FD /* bc6h_definitions.h in Headers */,
+				79D9FCF327D51E0C001667FD /* bc6h_utils.h in Headers */,
+				79D9FCEF27D51DEF001667FD /* KramDDSHelper.h in Headers */,
+				79D9FCDD27D51DD6001667FD /* EtcErrorMetric.h in Headers */,
+				79D9FCDE27D51DD6001667FD /* EtcColor.h in Headers */,
+				79D9FCDF27D51DD6001667FD /* EtcDifferentialTrys.h in Headers */,
+				79D9FCE027D51DD6001667FD /* EtcBlock4x4Encoding_RGB8.h in Headers */,
+				79D9FCE127D51DD6001667FD /* EtcConfig.h in Headers */,
+				79D9FCE227D51DD6001667FD /* EtcBlock4x4Encoding_R11.h in Headers */,
+				79D9FCE327D51DD6001667FD /* EtcBlock4x4Encoding_RG11.h in Headers */,
+				79D9FCE427D51DD7001667FD /* EtcMath.h in Headers */,
+				79D9FCE527D51DD7001667FD /* EtcIndividualTrys.h in Headers */,
+				79D9FCE627D51DD7001667FD /* EtcBlock4x4EncodingBits.h in Headers */,
+				79D9FCE727D51DD7001667FD /* EtcBlock4x4Encoding_RGB8A1.h in Headers */,
+				79D9FCE827D51DD7001667FD /* EtcBlock4x4.h in Headers */,
+				79D9FCE927D51DD7001667FD /* Etc.h in Headers */,
+				79D9FCEA27D51DD7001667FD /* EtcImage.h in Headers */,
+				79D9FCEB27D51DD7001667FD /* EtcBlock4x4Encoding_ETC1.h in Headers */,
+				79D9FCEC27D51DD7001667FD /* EtcBlock4x4Encoding_RGBA8.h in Headers */,
+				79D9FCED27D51DD7001667FD /* EtcColorFloatRGBA.h in Headers */,
+				79D9FCEE27D51DD7001667FD /* EtcBlock4x4Encoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1415,6 +1692,24 @@
 			productReference = 706EF1E126D166C5001C950E /* libkram-ios.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		79D9FB0327D51593001667FD /* kram-framwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D9FB0C27D51593001667FD /* Build configuration list for PBXNativeTarget "kram-framwork" */;
+			buildPhases = (
+				79D9FAFF27D51593001667FD /* Headers */,
+				79D9FB0027D51593001667FD /* Sources */,
+				79D9FB0127D51593001667FD /* Frameworks */,
+				79D9FB0227D51593001667FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kram-framwork";
+			productName = "kram-framwork";
+			productReference = 79D9FB0427D51593001667FD /* kram_framwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1425,6 +1720,9 @@
 				TargetAttributes = {
 					706ECDDD26D1577A001C950E = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					79D9FB0327D51593001667FD = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
@@ -1445,9 +1743,20 @@
 			targets = (
 				706ECDDD26D1577A001C950E /* kram */,
 				706EF14926D166C5001C950E /* kram-ios */,
+				79D9FB0327D51593001667FD /* kram-framwork */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D9FB0227D51593001667FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		706ECDDB26D1577A001C950E /* Sources */ = {
@@ -1625,6 +1934,96 @@
 				706EF1D926D166C5001C950E /* zstddeclib.cpp in Sources */,
 				706EF1DA26D166C5001C950E /* lodepng.cpp in Sources */,
 				706EF1DB26D166C5001C950E /* tmpfileplus.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D9FB0027D51593001667FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D9FCA627D51C4E001667FD /* bc7enc.cpp in Sources */,
+				79D9FCA727D51C4E001667FD /* astcenc_pick_best_endpoint_format.cpp in Sources */,
+				79D9FCA827D51C4E001667FD /* astcenc_integer_sequence.cpp in Sources */,
+				79D9FD2E27D54179001667FD /* astcenc_compute_variance.cpp in Sources */,
+				79D9FCA927D51C4E001667FD /* astcenc_quantization.cpp in Sources */,
+				79D9FCAA27D51C4E001667FD /* astcenc_color_unquantize.cpp in Sources */,
+				79D9FCAB27D51C4E001667FD /* astcenc_mathlib_softfloat.cpp in Sources */,
+				79D9FCAC27D51C4F001667FD /* astcenc_weight_quant_xfer_tables.cpp in Sources */,
+				79D9FCAD27D51C4F001667FD /* astcenc_encoding_choice_error.cpp in Sources */,
+				79D9FCAE27D51C4F001667FD /* astcenc_percentile_tables.cpp in Sources */,
+				79D9FCAF27D51C4F001667FD /* astcenc_partition_tables.cpp in Sources */,
+				79D9FCB027D51C4F001667FD /* astcenc_decompress_symbolic.cpp in Sources */,
+				79D9FCB127D51C4F001667FD /* astcenc_color_quantize.cpp in Sources */,
+				79D9FCB227D51C4F001667FD /* astcenc_platform_isa_detection.cpp in Sources */,
+				79D9FD3027D55285001667FD /* zstd.cpp in Sources */,
+				79D9FCB327D51C4F001667FD /* astcenc_image.cpp in Sources */,
+				79D9FCB427D51C4F001667FD /* astcenc_kmeans_partitioning.cpp in Sources */,
+				79D9FCB527D51C4F001667FD /* astcenc_compress_symbolic.cpp in Sources */,
+				79D9FCB627D51C4F001667FD /* astcenc_ideal_endpoints_and_weights.cpp in Sources */,
+				79D9FCB727D51C4F001667FD /* astcenc_mathlib.cpp in Sources */,
+				79D9FCB827D51C4F001667FD /* astcenc_find_best_partitioning.cpp in Sources */,
+				79D9FCB927D51C4F001667FD /* astcenc_diagnostic_trace.cpp in Sources */,
+				79D9FCBA27D51C4F001667FD /* astcenc_symbolic_physical.cpp in Sources */,
+				79D9FCBB27D51C4F001667FD /* astcenc_weight_align.cpp in Sources */,
+				79D9FCBC27D51C4F001667FD /* astcenc_block_sizes2.cpp in Sources */,
+				79D9FCBD27D51C4F001667FD /* astcenc_entry.cpp in Sources */,
+				79D9FCBE27D51C4F001667FD /* astcenc_averages_and_directions.cpp in Sources */,
+				79D9FCBF27D51C4F001667FD /* basisu_transcoder.cpp in Sources */,
+				79D9FCC027D51C4F001667FD /* miniz.cpp in Sources */,
+				79D9FCC127D51C4F001667FD /* hedistance.cpp in Sources */,
+				79D9FCC227D51C4F001667FD /* KramDDSHelper.cpp in Sources */,
+				79D9FCC327D51C4F001667FD /* KramZipHelper.cpp in Sources */,
+				79D9FCC427D51C4F001667FD /* KramImageInfo.cpp in Sources */,
+				79D9FCC527D51C4F001667FD /* KramImage.cpp in Sources */,
+				79D9FCC627D51C4F001667FD /* KramLog.cpp in Sources */,
+				79D9FD2F27D541BC001667FD /* bc7decomp.cpp in Sources */,
+				79D9FCC727D51C4F001667FD /* KramSDFMipper.cpp in Sources */,
+				79D9FCC827D51C4F001667FD /* KTXImage.cpp in Sources */,
+				79D9FCC927D51C4F001667FD /* KramTimer.cpp in Sources */,
+				79D9FCCA27D51C4F001667FD /* KramMmapHelper.cpp in Sources */,
+				79D9FCCB27D51C4F001667FD /* Kram.cpp in Sources */,
+				79D9FCCC27D51C4F001667FD /* KramFileHelper.cpp in Sources */,
+				79D9FCCD27D51C4F001667FD /* KramMipper.cpp in Sources */,
+				79D9FCCE27D51C4F001667FD /* float4a.cpp in Sources */,
+				79D9FCCF27D51C4F001667FD /* TaskSystem.cpp in Sources */,
+				79D9FCD027D51C4F001667FD /* squish.cpp in Sources */,
+				79D9FCD127D51C4F001667FD /* colourset.cpp in Sources */,
+				79D9FCD227D51C4F001667FD /* clusterfit.cpp in Sources */,
+				79D9FCD327D51C4F001667FD /* rangefit.cpp in Sources */,
+				79D9FCD427D51C50001667FD /* alpha.cpp in Sources */,
+				79D9FCD527D51C50001667FD /* colourblock.cpp in Sources */,
+				79D9FCD627D51C50001667FD /* colourfit.cpp in Sources */,
+				79D9FCD727D51C50001667FD /* maths.cpp in Sources */,
+				79D9FCD827D51C50001667FD /* singlecolourfit.cpp in Sources */,
+				79D9FCDB27D51C50001667FD /* lodepng.cpp in Sources */,
+				79D9FCDC27D51C50001667FD /* tmpfileplus.cpp in Sources */,
+				79D9FC9027D51BD1001667FD /* thread_support.cpp in Sources */,
+				79D9FC9127D51BD1001667FD /* assert.cpp in Sources */,
+				79D9FC9227D51BD1001667FD /* string.cpp in Sources */,
+				79D9FC9327D51BD1001667FD /* allocator_eastl.cpp in Sources */,
+				79D9FC9427D51BD1001667FD /* numeric_limits.cpp in Sources */,
+				79D9FC9527D51BD1001667FD /* atomic.cpp in Sources */,
+				79D9FC9627D51BD1001667FD /* intrusive_list.cpp in Sources */,
+				79D9FC9727D51BD2001667FD /* hashtable.cpp in Sources */,
+				79D9FC9827D51BD2001667FD /* red_black_tree.cpp in Sources */,
+				79D9FC9927D51BD2001667FD /* fixed_pool.cpp in Sources */,
+				79D9FC9A27D51BD2001667FD /* EtcBlock4x4Encoding_RGB8.cpp in Sources */,
+				79D9FC9B27D51BD2001667FD /* EtcImage.cpp in Sources */,
+				79D9FC9C27D51BD2001667FD /* EtcDifferentialTrys.cpp in Sources */,
+				79D9FC9D27D51BD2001667FD /* EtcMath.cpp in Sources */,
+				79D9FC9E27D51BD2001667FD /* EtcBlock4x4Encoding_RGBA8.cpp in Sources */,
+				79D9FC9F27D51BD2001667FD /* EtcBlock4x4Encoding_RG11.cpp in Sources */,
+				79D9FCA027D51BD2001667FD /* EtcBlock4x4Encoding_RGB8A1.cpp in Sources */,
+				79D9FCA127D51BD2001667FD /* EtcIndividualTrys.cpp in Sources */,
+				79D9FCA227D51BD2001667FD /* EtcBlock4x4Encoding_R11.cpp in Sources */,
+				79D9FCA327D51BD2001667FD /* EtcBlock4x4Encoding_ETC1.cpp in Sources */,
+				79D9FCA427D51BD2001667FD /* EtcBlock4x4Encoding.cpp in Sources */,
+				79D9FCA527D51BD2001667FD /* EtcBlock4x4.cpp in Sources */,
+				79D9FC8D27D51BAF001667FD /* hdr_encode.cpp in Sources */,
+				79D9FC8E27D51BAF001667FD /* bc6h_decode.cpp in Sources */,
+				79D9FC8F27D51BAF001667FD /* bc6h_encode.cpp in Sources */,
+				79D9FC8C27D51B64001667FD /* ateencoder.mm in Sources */,
+				79D9FB0827D51593001667FD /* kram_framwork.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1864,6 +2263,113 @@
 			};
 			name = Release;
 		};
+		79D9FB0A27D51593001667FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P3DK622T9M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = (
+					"-DCOMPILE_ASTCENC=1",
+					"-DCOMPILE_ATE=1",
+					"-DCOMPILE_ETCENC=1",
+					"-DCOMPILE_SQUISH=1",
+					"-DCOMPILE_BCENC=1",
+					"-DCOMPILE_EASTL=0",
+					"-DCOMPILE_COMP=1",
+					"-DCOMPILE_BASIS=1",
+					"-include",
+					KramConfig.h,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dfg.kram-framwork";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 6;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79D9FB0B27D51593001667FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P3DK622T9M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = (
+					"-DCOMPILE_ASTCENC=1",
+					"-DCOMPILE_ATE=1",
+					"-DCOMPILE_ETCENC=1",
+					"-DCOMPILE_SQUISH=1",
+					"-DCOMPILE_BCENC=1",
+					"-DCOMPILE_EASTL=0",
+					"-DCOMPILE_COMP=1",
+					"-DCOMPILE_BASIS=1",
+					"-include",
+					KramConfig.h,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dfg.kram-framwork";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 6;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1890,6 +2396,15 @@
 			buildConfigurations = (
 				706EF1DF26D166C5001C950E /* Debug */,
 				706EF1E026D166C5001C950E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D9FB0C27D51593001667FD /* Build configuration list for PBXNativeTarget "kram-framwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D9FB0A27D51593001667FD /* Debug */,
+				79D9FB0B27D51593001667FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
