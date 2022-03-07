@@ -127,7 +127,6 @@
 		706EF00226D15985001C950E /* KramConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2326D1583F001C950E /* KramConfig.h */; };
 		706EF00326D15985001C950E /* KramLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2426D1583F001C950E /* KramLog.h */; };
 		706EF00426D15985001C950E /* KramLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2726D1583F001C950E /* KramLib.h */; };
-		706EF00526D15985001C950E /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2926D1583F001C950E /* KramVersion.h */; };
 		706EF00626D15985001C950E /* KramImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2A26D1583F001C950E /* KramImage.h */; };
 		706EF00726D15985001C950E /* win_mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2D26D1583F001C950E /* win_mmap.h */; };
 		706EF00826D15985001C950E /* Kram.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2E26D1583F001C950E /* Kram.h */; };
@@ -204,7 +203,6 @@
 		706EF17C26D166C5001C950E /* KramConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2326D1583F001C950E /* KramConfig.h */; };
 		706EF17D26D166C5001C950E /* KramLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2426D1583F001C950E /* KramLog.h */; };
 		706EF17E26D166C5001C950E /* KramLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2726D1583F001C950E /* KramLib.h */; };
-		706EF17F26D166C5001C950E /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2926D1583F001C950E /* KramVersion.h */; };
 		706EF18026D166C5001C950E /* KramImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2A26D1583F001C950E /* KramImage.h */; };
 		706EF18126D166C5001C950E /* win_mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2D26D1583F001C950E /* win_mmap.h */; };
 		706EF18226D166C5001C950E /* Kram.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2E26D1583F001C950E /* Kram.h */; };
@@ -393,7 +391,6 @@
 		7903FDCD27D5FE4800E440B3 /* KramConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2326D1583F001C950E /* KramConfig.h */; };
 		7903FDCE27D5FE4800E440B3 /* KramLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2426D1583F001C950E /* KramLog.h */; };
 		7903FDCF27D5FE4800E440B3 /* KramLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2726D1583F001C950E /* KramLib.h */; };
-		7903FDD027D5FE4800E440B3 /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2926D1583F001C950E /* KramVersion.h */; };
 		7903FDD127D5FE4800E440B3 /* KramImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2A26D1583F001C950E /* KramImage.h */; };
 		7903FDD227D5FE4800E440B3 /* win_mmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2D26D1583F001C950E /* win_mmap.h */; };
 		7903FDD327D5FE4800E440B3 /* Kram.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2E26D1583F001C950E /* Kram.h */; };
@@ -638,7 +635,6 @@
 		79D9FD1027D51FF2001667FD /* KramConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2326D1583F001C950E /* KramConfig.h */; };
 		79D9FD1127D51FF2001667FD /* KramLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2726D1583F001C950E /* KramLib.h */; };
 		79D9FD1227D51FF3001667FD /* KramLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2426D1583F001C950E /* KramLog.h */; };
-		79D9FD1327D51FF3001667FD /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2926D1583F001C950E /* KramVersion.h */; };
 		79D9FD1427D51FF3001667FD /* KramImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2A26D1583F001C950E /* KramImage.h */; };
 		79D9FD1527D51FF4001667FD /* KramSDFMipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE2026D1583F001C950E /* KramSDFMipper.h */; };
 		79D9FD1627D51FF4001667FD /* KramImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 706EEE3126D1583F001C950E /* KramImageInfo.h */; };
@@ -789,7 +785,6 @@
 		706EEE2626D1583F001C950E /* KramImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KramImage.cpp; sourceTree = "<group>"; };
 		706EEE2726D1583F001C950E /* KramLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KramLib.h; sourceTree = "<group>"; };
 		706EEE2826D1583F001C950E /* KramLog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KramLog.cpp; sourceTree = "<group>"; };
-		706EEE2926D1583F001C950E /* KramVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KramVersion.h; sourceTree = "<group>"; };
 		706EEE2A26D1583F001C950E /* KramImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KramImage.h; sourceTree = "<group>"; };
 		706EEE2B26D1583F001C950E /* KramSDFMipper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KramSDFMipper.cpp; sourceTree = "<group>"; };
 		706EEE2C26D1583F001C950E /* KramMmapHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KramMmapHelper.cpp; sourceTree = "<group>"; };
@@ -1237,7 +1232,6 @@
 				706EEE2726D1583F001C950E /* KramLib.h */,
 				706EEE2426D1583F001C950E /* KramLog.h */,
 				706EEE2826D1583F001C950E /* KramLog.cpp */,
-				706EEE2926D1583F001C950E /* KramVersion.h */,
 				706EEE2A26D1583F001C950E /* KramImage.h */,
 				706EEE2026D1583F001C950E /* KramSDFMipper.h */,
 				706EEE2B26D1583F001C950E /* KramSDFMipper.cpp */,
@@ -1623,7 +1617,6 @@
 				706EF00226D15985001C950E /* KramConfig.h in Headers */,
 				706EF00326D15985001C950E /* KramLog.h in Headers */,
 				706EF00426D15985001C950E /* KramLib.h in Headers */,
-				706EF00526D15985001C950E /* KramVersion.h in Headers */,
 				706EF00626D15985001C950E /* KramImage.h in Headers */,
 				706EF00726D15985001C950E /* win_mmap.h in Headers */,
 				706EF00826D15985001C950E /* Kram.h in Headers */,
@@ -1712,7 +1705,6 @@
 				706EF17C26D166C5001C950E /* KramConfig.h in Headers */,
 				706EF17D26D166C5001C950E /* KramLog.h in Headers */,
 				706EF17E26D166C5001C950E /* KramLib.h in Headers */,
-				706EF17F26D166C5001C950E /* KramVersion.h in Headers */,
 				706EF18026D166C5001C950E /* KramImage.h in Headers */,
 				706EF18126D166C5001C950E /* win_mmap.h in Headers */,
 				706EF18226D166C5001C950E /* Kram.h in Headers */,
@@ -1801,7 +1793,6 @@
 				7903FDCD27D5FE4800E440B3 /* KramConfig.h in Headers */,
 				7903FDCE27D5FE4800E440B3 /* KramLog.h in Headers */,
 				7903FDCF27D5FE4800E440B3 /* KramLib.h in Headers */,
-				7903FDD027D5FE4800E440B3 /* KramVersion.h in Headers */,
 				7903FDD127D5FE4800E440B3 /* KramImage.h in Headers */,
 				7903FDD227D5FE4800E440B3 /* win_mmap.h in Headers */,
 				7903FDD327D5FE4800E440B3 /* Kram.h in Headers */,
@@ -1857,7 +1848,6 @@
 				79D9FD1027D51FF2001667FD /* KramConfig.h in Headers */,
 				79D9FD1127D51FF2001667FD /* KramLib.h in Headers */,
 				79D9FD1227D51FF3001667FD /* KramLog.h in Headers */,
-				79D9FD1327D51FF3001667FD /* KramVersion.h in Headers */,
 				79D9FD1427D51FF3001667FD /* KramImage.h in Headers */,
 				79D9FD1527D51FF4001667FD /* KramSDFMipper.h in Headers */,
 				79D9FD1627D51FF4001667FD /* KramImageInfo.h in Headers */,
