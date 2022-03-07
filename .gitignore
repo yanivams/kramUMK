@@ -8,7 +8,7 @@ bin/
 out/
 
 # this file is generated from cibuild.sh, and is based on current tag
-libkram/kram/KramVersion.h
+#libkram/kram/KramVersion.h
 
 # ignore zip files
 *.zip
