@@ -499,6 +499,10 @@
 		7903FE3B27D5FE4800E440B3 /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE5626D1583F001C950E /* lodepng.cpp */; };
 		7903FE3C27D5FE4800E440B3 /* tmpfileplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 706EEE5826D1583F001C950E /* tmpfileplus.cpp */; };
 		7903FE3E27D5FE4800E440B3 /* libate.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 706EF12A26D159F9001C950E /* libate.tbd */; };
+		7903FE4427D6012700E440B3 /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7903FE4327D6012700E440B3 /* KramVersion.h */; };
+		7903FE4527D6012700E440B3 /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7903FE4327D6012700E440B3 /* KramVersion.h */; };
+		7903FE4627D6012700E440B3 /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7903FE4327D6012700E440B3 /* KramVersion.h */; };
+		7903FE4727D6012700E440B3 /* KramVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7903FE4327D6012700E440B3 /* KramVersion.h */; };
 		79D9FB0827D51593001667FD /* kram_framwork.docc in Sources */ = {isa = PBXBuildFile; fileRef = 79D9FB0727D51593001667FD /* kram_framwork.docc */; };
 		79D9FB0927D51593001667FD /* kram_framwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D9FB0627D51593001667FD /* kram_framwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79D9FC8B27D51B38001667FD /* libate.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 706EF12A26D159F9001C950E /* libate.tbd */; };
@@ -977,6 +981,7 @@
 		70CDB64E27A1382600A546C1 /* KramDDSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KramDDSHelper.h; sourceTree = "<group>"; };
 		70CDB64F27A1382600A546C1 /* KramDDSHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KramDDSHelper.cpp; sourceTree = "<group>"; };
 		7903FE4227D5FE4800E440B3 /* libkram-arm64 Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libkram-arm64 Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7903FE4327D6012700E440B3 /* KramVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KramVersion.h; sourceTree = "<group>"; };
 		79D9FB0427D51593001667FD /* kram_framwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kram_framwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D9FB0627D51593001667FD /* kram_framwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kram_framwork.h; sourceTree = "<group>"; };
 		79D9FB0727D51593001667FD /* kram_framwork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = kram_framwork.docc; sourceTree = "<group>"; };
@@ -1222,6 +1227,7 @@
 		706EEE1826D1583F001C950E /* kram */ = {
 			isa = PBXGroup;
 			children = (
+				7903FE4327D6012700E440B3 /* KramVersion.h */,
 				70CDB64E27A1382600A546C1 /* KramDDSHelper.h */,
 				70CDB64F27A1382600A546C1 /* KramDDSHelper.cpp */,
 				706EEE1926D1583F001C950E /* KramZipHelper.h */,
@@ -1627,6 +1633,7 @@
 				706EF00D26D15985001C950E /* float4a.h in Headers */,
 				706EF00E26D15985001C950E /* KramFileHelper.h in Headers */,
 				706EF00F26D15985001C950E /* KramMipper.h in Headers */,
+				7903FE4427D6012700E440B3 /* KramVersion.h in Headers */,
 				706EF01026D15985001C950E /* TaskSystem.h in Headers */,
 				706EF01126D15985001C950E /* squish.h in Headers */,
 				706EF01226D15985001C950E /* clusterfit.h in Headers */,
@@ -1715,6 +1722,7 @@
 				706EF18726D166C5001C950E /* float4a.h in Headers */,
 				706EF18826D166C5001C950E /* KramFileHelper.h in Headers */,
 				706EF18926D166C5001C950E /* KramMipper.h in Headers */,
+				7903FE4527D6012700E440B3 /* KramVersion.h in Headers */,
 				706EF18A26D166C5001C950E /* TaskSystem.h in Headers */,
 				706EF18B26D166C5001C950E /* squish.h in Headers */,
 				706EF18C26D166C5001C950E /* clusterfit.h in Headers */,
@@ -1803,6 +1811,7 @@
 				7903FDD827D5FE4800E440B3 /* float4a.h in Headers */,
 				7903FDD927D5FE4800E440B3 /* KramFileHelper.h in Headers */,
 				7903FDDA27D5FE4800E440B3 /* KramMipper.h in Headers */,
+				7903FE4727D6012700E440B3 /* KramVersion.h in Headers */,
 				7903FDDB27D5FE4800E440B3 /* TaskSystem.h in Headers */,
 				7903FDDC27D5FE4800E440B3 /* squish.h in Headers */,
 				7903FDDD27D5FE4800E440B3 /* clusterfit.h in Headers */,
@@ -1891,6 +1900,7 @@
 				79D9FCDD27D51DD6001667FD /* EtcErrorMetric.h in Headers */,
 				79D9FCDE27D51DD6001667FD /* EtcColor.h in Headers */,
 				79D9FCDF27D51DD6001667FD /* EtcDifferentialTrys.h in Headers */,
+				7903FE4627D6012700E440B3 /* KramVersion.h in Headers */,
 				79D9FCE027D51DD6001667FD /* EtcBlock4x4Encoding_RGB8.h in Headers */,
 				79D9FCE127D51DD6001667FD /* EtcConfig.h in Headers */,
 				79D9FCE227D51DD6001667FD /* EtcBlock4x4Encoding_R11.h in Headers */,
